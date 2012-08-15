@@ -18,6 +18,8 @@
   <project path="bootable/" name="CyanMobile/android_bootable_cyanmobile" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device/htc/passion" name="TaichiN/android_device_htc_passion_cyanmobile" />
+  <project path="device/htc/passion-common" name="TaichiN/android_device_htc_passion-common_cyanmobile" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/tass" name="CyanMobile/android_device_samsung_tass_cyanmobile" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
@@ -216,6 +218,6 @@
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile" name="CyanMobile/android_vendor_tmobile_cyanmobile" />
 
-  <project path="android" name="CyanMobile/android_cyanmobile" />
+  <project path="android" name="TaichiN/android_cyanmobile" />
 
 </manifest>
