@@ -21,7 +21,9 @@
   <project path="device/htc/passion" name="TaichiN/android_device_htc_passion_cyanmobile" />
   <project path="device/htc/passion-common" name="TaichiN/android_device_htc_passion-common_cyanmobile" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
+  <project path="device/samsung/gio" name="CyanMobile/android_device_samsung_gio_cyanmobile" />
   <project path="device/samsung/tass" name="CyanMobile/android_device_samsung_tass_cyanmobile" />
+  <project path="device/zte/blade" name="CyanMobile/android_device_zte_blade_cyanmobile" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />

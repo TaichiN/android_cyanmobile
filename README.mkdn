@@ -29,6 +29,23 @@ Build CyanMobile rom for your device
 
 add "setprop ro.squadzone.build 1" (without quote) into init.rc or init*.rc of your device
 
+then must add below into your build.prop
+*******************************************
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+debug.sf.hw=1
+persist.sys.themeId=ICStransV3 UOT
+persist.sys.themePackageName=com.uotkitchen.theme.icstransv3
+************************************************************
+
 "make sure your device kernel support with ksm,cleancache,frontswap and 
 6 Ioscheduler (deadline,noop,sio,bfq,cfq, and vr) to make some options working"
 
@@ -37,4 +54,8 @@ see device/samsung/tass and vendor/cyanogenmod/products
 for prepare what needed to build full rom
 and write for your device....
 
-Nb: your overlay must same with this example device if your device is ldpi (see device/samsung/tass/overlay) but if your device is hdpi you must change layout for navigationbar so it will matches with your device screen resolution, and remember dont touch other if your device is exactly same with this example device.
+Nb: your overlay must same with this example device 
+if your device is ldpi (see device/samsung/tass/overlay)
+else if your device is mdpi (see device/samsung/gio/overlay)
+else if your device is hdpi (see device/zte/blade/overlay)
+and if you need to add another xml into overlay, make sure default overlay is untouched :)
