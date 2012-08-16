@@ -213,6 +213,7 @@
   <project path="packages/inputmethods" name="CyanMobile/android_packages_inputmethods_cyanmobile" />
   <project path="packages/providers" name="CyanMobile/android_packages_providers_cyanmobile" />
   <project path="packages/wallpapers" name="CyanMobile/android_packages_wallpapers_cyanmobile" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="sdk" name="CyanMobile/android_sdk_cyanmobile" />
   <project path="system" name="CyanMobile/android_system_cyanmobile" />
 
