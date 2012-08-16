@@ -16,6 +16,7 @@
   </project>
   <project path="bionic" name="CyanMobile/android_bionic_cyanmobile" />
   <project path="bootable/" name="CyanMobile/android_bootable_cyanmobile" />
+  <project path="dalvik" name="CyanMobile/android_dalvik_cyanmobile" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/htc/passion" name="TaichiN/android_device_htc_passion_cyanmobile" />
