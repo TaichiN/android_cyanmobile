@@ -22,8 +22,6 @@
   <project path="development" name="CyanMobile/android_development_cyanmobile" />
   <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/htc/passion" name="CyanMobile/android_device_htc_passion_cyanmobile" />
-  <project path="device/htc/passion-common" name="CyanMobile/android_device_htc_passion-common_cyanmobile" />
   <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" />
   <project path="device/dell/streak7" name="CyanogenMod/android_device_dell_streak7" />
