@@ -24,11 +24,13 @@
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/huawei/u8510" name="CyanMobile/android_device_huawei_u8510_cyanmobile" />
   <project path="device/htc/bravo" name="CyanMobile/android_device_htc_bravo_cyanmobile" />
+  <project path="device/htc/buzz" name="CyanMobile/android_device_htc_buzz_cyanmobile" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" />
   <project path="device/htc/passion" name="CyanMobile/android_device_htc_passion_cyanmobile" />
   <project path="device/htc/passion-common" name="CyanMobile/android_device_htc_passion-common_cyanmobile" />
   <project path="device/lge/p350" name="CyanMobile/android_device_lge_p350_cyanmobile" />
+  <project path="device/lge/p970" name="CyanMobile/android_device_lge_p970_cyanmobile" />
   <project path="device/lge/p500" name="CyanMobile/android_device_lge_p500_cyanmobile" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/beni" name="CyanMobile/android_device_samsung_beni_cyanmobile" />
