@@ -20,50 +20,77 @@ Then to sync up:
     repo sync
 
 For more information on this Github Organization and what features are included in it, 
-please [read the definitions](https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definitions.txt)
+please [Read the Definitions](https://github.com/CyanMobile/android_cyanmobile/blob/gingerbread/Definitions.txt)
 
 
 
 Building CyanMobile rom for your device
 ---------------------------------------
 
-Add "setprop ro.squadzone.build 1" (without quotes) into the init.rc or init*.rc of your device
+Add the Following two lines into the init.rc or init.{DEVICE}.rc of your Device Config
 
-then must add these into your build.prop
+<ol>
+<li>setprop ro.squadzone.build 1</li>
+<li>setprop persist.sys.gmaps_hack 1</li>
+
+Now Add These Lines to your System.prop { Build.prop }
 *******************************************
-debug.composition.type=gpu
+<ul>
+<li>debug.composition.type=gpu</li>
 
-persist.sys.composition.type=gpu
+<li>persist.sys.composition.type=gpu</li>
 
-persist.sys.ui.hw=true
+<li>persist.sys.ui.hw=true</li>
 
-dalvik.vm.lockprof.threshold=500
+<li>dalvik.vm.lockprof.threshold=500</li>
 
-dalvik.vm.dexopt-flags=m=y
+<li>dalvik.vm.dexopt-flags=m=y</li>
 
-dalvik.vm.heapsize=32m
+<li>dalvik.vm.heapsize=32m</li>
 
-dalvik.vm.execution-mode=int:jit
+<li>dalvik.vm.execution-mode=int:jit</li>
 
-dalvik.vm.dexopt-data-only=1
+<li>dalvik.vm.dexopt-data-only=1</li>
 
-ro.config.hw_menu_unlockscreen=false
+<li>ro.config.hw_menu_unlockscreen=false</li>
 
-ro.service.swiqi.supported=true
+<li>ro.service.swiqi.supported=true</li>
 
-debug.sf.hw=1
+<li>debug.sf.hw=1</li>
+</ul>
 ************************************************************
 
-"Make sure your device's kernel supports KSM, cleancache, frontswap and 
-6 I/O schedulers (deadline, noop, sio, bfq, cfq and vr) to make some of the options working"
+"Make sure your device's kernel supports :
+<ul>
+<li>KSM</li>
+<li>Cleancache</li>
+<li>Frontswap</li>
+</ul>
+
+And Your Kernel Should Also Support all Six I/O Schedulers For Get All Functions Working Fine i.e :
+<ul>
+<li>Deadline</li>
+<li>NOOP</li>
+<li>SIO</li>
+<li>BFQ</li>
+<li>CFQ</li>
+<li>VR</li> 
+</ul>
 
 See device/samsung/tass and vendor/cyanogen/products for preparation of what's needed to build a full ROM and make it for your device....
 
-Nb: Your overlay must be the same with this example device 
-if your device is [ldpi], see device/samsung/tass/overlay
-else if your device is [mdpi], see device/samsung/gio/overlay
-else if your device is [hdpi], see device/zte/blade/overlay
-and if you need to add another xml into overlay, make sure the default overlay is untouched :)
-if you still can't manage to build, let me help you, just pm my github account :D
+Extra Notes : Your overlay must be the same with this Example Device 
+<ul>
+<li>If your device is [ldpi], see device/samsung/tass/overlay</li>
+<li>Else if your device is [mdpi], see device/samsung/gio/overlay</li>
+<li>Else if your device is [hdpi], see device/zte/blade/overlay</li>
+</ul>
+And if you need to add another xml into overlay,Make sure the default overlay is untouched :)
+If you still can't manage to build, let me help you, Just Make Issue and Tag us ! Or Hang With us on Our Official Freenode Channel on <a href="http://webchat.freenode.net/?channels=CyanMobileX">#CyanMobileX</a>
 
-DO NOT USE recovery.img AFTER BUILDING THIS ;)
+ 
+<h1>DO NOT USE recovery.img AFTER BUILDING THIS ;)</h1>
+
+<ul>
+<li>Hang with us on Our Official IRC Channel on Freenode on <a href="http://webchat.freenode.net/?channels=CyanMobileX">#CyanMobileX</a></li>
+</ul>
