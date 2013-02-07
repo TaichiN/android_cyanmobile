@@ -22,7 +22,6 @@
   <project path="dalvik" name="CyanMobile/android_dalvik_cyanmobile" />
   <project path="development" name="CyanMobile/android_development_cyanmobile" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -214,7 +213,7 @@
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanMobile/android_packages_experimental_cyanmobile" />
   <project path="packages/inputmethods/LatinIME" name="CyanMobile/android_packages_inputmethods_LatinIME_cyanmobile" />
-  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
+  <project path="packages/providers/ApplicationsProvider" name="CyanMobile/android_packages_providers_ApplicationsProvider_cyanmobile" />
   <project path="packages/providers/CalendarProvider" name="CyanMobile/android_packages_providers_CalendarProvider_cyanmobile" />
   <project path="packages/providers/ContactsProvider" name="CyanMobile/android_packages_providers_ContactsProvider_cyanmobile" />
   <project path="packages/providers/DownloadProvider" name="CyanMobile/android_packages_providers_DownloadProvider_cyanmobile" />
