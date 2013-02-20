@@ -142,7 +142,7 @@
   <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="CyanMobile/android_libcore_cyanmobile" />
   <project path="ndk" name="CyanMobile/android_ndk_cyanmobile" />
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanMobile/android_packages_apps_AccountsAndSyncSettings_cyanmobile" />
   <project path="packages/apps/AicBootFix" name="CyanogenMod/android_packages_apps_AicBootFix" revision="master"/>
@@ -179,7 +179,7 @@
   <project path="packages/apps/Contacts" name="CyanMobile/android_packages_apps_Contacts_cyanmobile" />
   <project path="packages/apps/DeskClock" name="CyanMobile/android_packages_apps_DeskClock_cyanmobile" />
   <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
+  <project path="packages/apps/DSPManager" name="CyanMobile/android_packages_apps_DSPManager_cyanmobile" />
   <project path="packages/apps/FileManager" name="CyanMobile/android_packages_apps_FileManager_cyanmobile" />
   <project path="packages/apps/FM" name="CyanMobile/android_packages_apps_FM_cyanmobile" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
@@ -193,7 +193,7 @@
   <project path="packages/apps/Mms" name="CyanMobile/android_packages_apps_Mms_cyanmobile" />
   <project path="packages/apps/Music" name="CyanMobile/android_packages_apps_Music_cyanmobile" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="CyanMobile/android_packages_apps_PackageInstaller_cyanmobile" />
   <project path="packages/apps/Pacman" name="CyanogenMod/android_packages_apps_Pacman" />
   <project path="packages/apps/Phone" name="CyanMobile/android_packages_apps_Phone_cyanmobile" />
   <project path="packages/apps/Protips" name="CyanMobile/android_packages_apps_Protips_cyanmobile" />
@@ -218,10 +218,10 @@
   <project path="packages/providers/CalendarProvider" name="CyanMobile/android_packages_providers_CalendarProvider_cyanmobile" />
   <project path="packages/providers/ContactsProvider" name="CyanMobile/android_packages_providers_ContactsProvider_cyanmobile" />
   <project path="packages/providers/DownloadProvider" name="CyanMobile/android_packages_providers_DownloadProvider_cyanmobile" />
-  <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
+  <project path="packages/providers/DrmProvider" name="CyanMobile/android_packages_providers_DrmProvider_cyanmobile" />
   <project path="packages/providers/GoogleContactsProvider" name="CyanogenMod/android_packages_providers_GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="CyanMobile/android_packages_providers_MediaProvider_cyanmobile" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="CyanMobile/android_packages_providers_TelephonyProvider_cyanmobile" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
